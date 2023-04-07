@@ -9,5 +9,4 @@ There are seven python files in this folders.
 - model.py: Our stream-graph neural network model and  the subfunction for training, testing and prediction.
 - pred_list_gene.py: Generate the local and global connection matrix and hybrid connection matrix. And executive the single-step and rolling data prefetching, output the HR and EPR for corresponding input trace.
 - utils.py: Other functions for data processing and model building. Besides, there is a function for global stream-graph structure.
-- Appendix.pdf: The Supplementary Material for SGDP. It includes many details results and introduction of algorithm reproducing.
 
