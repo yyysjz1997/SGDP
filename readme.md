@@ -20,4 +20,4 @@ There are seven python files in this folders.
 
 3. As a novel solution in the hybrid storage system, SGDP can be generalized to multiple variants by different stream construction methods, which further enhances its robustness and expands its application to various real-world scenarios. 
 
-4. SGDP outperforms SOTA prefetchers by 6.21\% on hit ratio, 7.00\% on effective prefetching ratio, and speeds up inference time by 3.13$\times$ on average. It has been verified in commercial hybrid storage systems in the experimental phase and will be deployed in the future product series.
+4. SGDP outperforms SOTA prefetchers by 6.21\% on hit ratio, 7.00\% on effective prefetching ratio, and speeds up inference time by 3.13X on average. It has been verified in commercial hybrid storage systems in the experimental phase and will be deployed in the future product series.
