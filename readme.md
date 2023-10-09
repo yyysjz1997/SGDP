@@ -1,3 +1,5 @@
+## SGDP: A Stream-Graph Neural Network Based Data Prefetcher [[Paper]](https://arxiv.org/abs/2304.03864)
+
 ### Introduction of Code Demo and Appendix
 
 There are seven python files in this folders. 
