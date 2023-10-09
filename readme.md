@@ -12,3 +12,12 @@ There are seven python files in this folders.
 - pred_list_gene.py: Generate the local and global connection matrix and hybrid connection matrix. And executive the single-step and rolling data prefetching, output the HR and EPR for corresponding input trace.
 - utils.py: Other functions for data processing and model building. Besides, there is a function for global stream-graph structure.
 
+### Contributions
+
+1. SGDP can accurately learn complex access patterns by capturing the relations of LBA deltas in each stream. The relations are represented by sequential connect matrices and full-connect matrices using graph structures.
+
+2. To the best of our knowledge, SGDP is the first work that utilizes the stream-graph structure of the LBA delta in the data prefetching problem. Using gated graph neural networks and attention mechanisms, we extract and aggregate sequential and global information for better prefetching.
+
+3. As a novel solution in the hybrid storage system, SGDP can be generalized to multiple variants by different stream construction methods, which further enhances its robustness and expands its application to various real-world scenarios. 
+
+4. SGDP outperforms SOTA prefetchers by 6.21\% on hit ratio, 7.00\% on effective prefetching ratio, and speeds up inference time by 3.13$\times$ on average. It has been verified in commercial hybrid storage systems in the experimental phase and will be deployed in the future product series.
